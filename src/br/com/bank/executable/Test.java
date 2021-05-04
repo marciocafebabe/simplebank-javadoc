@@ -1,4 +1,7 @@
-package br.com.bank;
+package br.com.bank.executable;
+
+import br.com.bank.account.Account;
+import br.com.bank.client.Client;
 
 /**
  * Class made to test the program's functionalities
@@ -12,7 +15,7 @@ public class Test {
 	/**
 	 * Main method used to test the program's functionalities
 	 * 
-	 * @param args Main method's default parameter.
+	 * @param args Default parameter.
 	 */
 	public static void main(String[] args) {
 		Client client1 = new Client("Marcio", "Aclimacao", "12312312312");

@@ -1,4 +1,4 @@
-package br.com.bank;
+package br.com.bank.client;
 
 /**
  * Class that can generate a Client Object.
@@ -8,9 +8,9 @@ package br.com.bank;
  * @since 05/03/2021 (American Date Format)
  */
 public class Client {
-	private String name;
-	private String postalAddress;
-	private String cpf;
+	protected String name;
+	protected String postalAddress;
+	protected String cpf;
 
 	/**
 	 * Constructor method using fields. It creates the object Client by setting some

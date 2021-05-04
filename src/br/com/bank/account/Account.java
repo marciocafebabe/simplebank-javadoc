@@ -1,4 +1,6 @@
-package br.com.bank;
+package br.com.bank.account;
+
+import br.com.bank.client.Client;
 
 /**
  * Class that can generate an Account object.
@@ -8,9 +10,9 @@ package br.com.bank;
  * @since 05/03/2021 (American Date Format)
  */
 public class Account {
-	private Client client;
-	private double balance;
-	private int agency;
+	protected Client client;
+	protected double balance;
+	protected int agency;
 
 	/**
 	 * Constructor method using fields. It creates the object Client by setting some
